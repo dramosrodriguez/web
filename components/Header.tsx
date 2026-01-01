@@ -20,12 +20,12 @@ export default function Header() {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className={`nav-link ${path === '/' ? 'active' : ''}`} href="/">Inicio</a>
+                                    <Link className={`nav-link ${path === '/' ? 'active' : ''}`} href="/">Inicio</Link>
                                 </li>
                                 <li className="nav-item dropdown">
-                                    <a href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Trabajos</a>
+                                    <Link href="#" className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Trabajos</Link>
                                     <ul className="dropdown-menu">
-                                        <li><a href="reloops" className="dropdown-item">Reloops</a></li>
+                                        <li><Link href="reloops" className="dropdown-item">Reloops</Link></li>
                                     </ul>
                                 </li>
                             </ul>
