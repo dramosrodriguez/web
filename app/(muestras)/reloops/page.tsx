@@ -1,4 +1,7 @@
 import Image from "next/image";
+import error404 from "@/public/images/error404-reloops.png";
+import apartadosApps from "@/public/images/apartadosApps-reloops.png";
+import aplicaciones from "@/public/images/aplicaciones-reloops.png";
 
 export default function Reloops() {
     return (
@@ -8,7 +11,7 @@ export default function Reloops() {
                 <div className="row d-flex justify-content-center">
                     <div className="col-md-6 mb-4">
                         <div className="card">
-                            <Image src="/images/error404-reloops.png" className="card-img-top" alt="Proyecto 1" width={500} height={300} />
+                            <Image src={error404} className="card-img-top" alt="Proyecto 1" width={500} height={300} />
                             <div className="card-body">
                                 <h5 className="card-title">ERROR 404</h5>
                                 <p className="card-text">
@@ -19,7 +22,7 @@ export default function Reloops() {
                     </div>
                     <div className="col-md-6 mb-4">
                         <div className="card">
-                            <Image src="/images/apartadosApps-reloops.png" className="card-img-top" alt="Proyecto 2" width={500} height={300} />
+                            <Image src={apartadosApps} className="card-img-top" alt="Proyecto 2" width={500} height={300} />
                             <div className="card-body">
                                 <h5 className="card-title">Pestaña aplicaciones</h5>
                                 <p className="card-text">
@@ -30,7 +33,7 @@ export default function Reloops() {
                     </div>
                     <div className="col-md-6 mb-4">
                         <div className="card">
-                            <Image src="/images/aplicaciones-reloops.png" className="card-img-top" alt="Proyecto 3" width={500} height={300} />
+                            <Image src={aplicaciones} className="card-img-top" alt="Proyecto 3" width={500} height={300} />
                             <div className="card-body">
                                 <h5 className="card-title">Subdominio</h5>
                                 <p className="card-text">

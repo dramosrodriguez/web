@@ -1,4 +1,5 @@
 import Image from "next/image";
+import fotoPerfil from "@/public/images/perfil.jpg"
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
           <div className="col-lg-4">
             <div className="card mb-4">
               <div className="card-body text-center">
-                <Image src="/images/perfil.jpg" alt="perfil" width={150} height={150} className="rounded-circle" style={{
+                <Image src={fotoPerfil} alt="perfil" width={150} height={150} className="rounded-circle" style={{
 					objectFit: 'cover',
 					objectPosition: '0 -15px'
 				}} />
